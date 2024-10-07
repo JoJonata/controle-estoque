@@ -8,8 +8,6 @@ const getCampaing = async () =>
         },
     });
 
-
-
 const HomePage: React.FC = async () => {
     const data = await getCampaing();
 

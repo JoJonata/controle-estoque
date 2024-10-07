@@ -22,7 +22,7 @@ export async function POST(request: Request) {
                             name: data.category
                         }
                     }
-                }
+                },
                 brand: {
                     connectOrCreate: {
                         where: {
